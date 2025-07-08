@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../pages/navbar";
 import LeftSidebar from "./leftsidebar";
 import Rightsidebar from "./Rightsidebar";
+import Footer from "./Footer";
 
 const Whychoose = () => {
   return (
@@ -62,6 +63,7 @@ const Whychoose = () => {
         </div>
          <Rightsidebar/>
       </div>
+      <Footer/>
     </div>
   );
 };

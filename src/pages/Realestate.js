@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../pages/navbar";
 import RightSidebar from "../pages/Rightsidebar";
 import LeftSidebar from "../pages/leftsidebar";
+import Footer from "./Footer";
 
 const Realestate = () => {
   return (
@@ -40,6 +41,7 @@ const Realestate = () => {
         {/* ✅ Right Sidebar */}
         <RightSidebar />
       </div>
+      <Footer/>
     </div>
   );
 };

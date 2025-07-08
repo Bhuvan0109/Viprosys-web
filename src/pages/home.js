@@ -112,7 +112,7 @@ const Home = () => {
               {/* <School className="h-12 w-12 text-goldenrod" /> */}
               <div>
   
-    <img src={logo} alt="viprosoft logo" className="h-14 w-auto" />
+    <img src={logo} alt="viprosoft logo"  className="h-14 w-auto" />
     
     
   

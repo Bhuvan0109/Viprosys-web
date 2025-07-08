@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../pages/navbar";
 import Rightsidebar from "./Rightsidebar";
 import LeftSidebar from "../pages/leftsidebar";
+import Footer from "./Footer";
 
 
 const Careers = () => {
@@ -55,6 +56,7 @@ const Careers = () => {
         <Rightsidebar/>
 
       </div>
+      <Footer/>
     </div>
   );
 };

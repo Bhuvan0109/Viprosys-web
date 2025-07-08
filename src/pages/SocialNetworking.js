@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../pages/navbar";
 import RightSidebar from "../pages/Rightsidebar"; 
 import LeftSidebar from "../pages/leftsidebar";
+import Footer from "./Footer";
 
 const SocialNetworking = () => {
   return (
@@ -48,6 +49,7 @@ const SocialNetworking = () => {
            <RightSidebar />
         
       </div>
+      <Footer/>
     </div>
   );
 };

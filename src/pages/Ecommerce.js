@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../pages/navbar";
 import RightSidebar from "../pages/Rightsidebar"; 
 import LeftSidebar from "../pages/leftsidebar";
+import Footer from "./Footer";
 
 const Ecommerce = () => {
   return (
@@ -45,6 +46,7 @@ const Ecommerce = () => {
         {/* Right Sidebar */}
        <RightSidebar/>
       </div>
+      <Footer/>
     </div>
   );
 };

@@ -4,6 +4,7 @@ import RightSidebar from "../pages/Rightsidebar";
 import Careers from "./Careers";
 import Innovates from "./Innovates";
 import Whychoose from "./Whychoose";
+import Footer from "./Footer";
 
 const About = () => {
   return (
@@ -75,10 +76,14 @@ const About = () => {
           </p>
         
             </div>
+            
           </div>
         </aside>
+        
       </div>
+      <Footer/>
     </div>
+    
   );
 };
 

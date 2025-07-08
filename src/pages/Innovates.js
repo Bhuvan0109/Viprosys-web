@@ -7,6 +7,7 @@ import stack from "../images/stack.jpg"
 import About from "./About";
 import Careers from "./Careers";
 import Whychoose from "./Whychoose";
+import Footer from "./Footer";
 
 
 const Innovates = () => {
@@ -190,6 +191,7 @@ const Innovates = () => {
         <RightSidebar />
         
       </div>
+      <Footer/>
      
     </div>
   );
