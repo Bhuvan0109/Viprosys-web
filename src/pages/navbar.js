@@ -1,6 +1,7 @@
 import React from 'react';
 import { Phone, Mail } from 'lucide-react';
 import logo from '../images/VIPROSOFT.jpeg';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -8,7 +9,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-4">
-            <img src={logo} alt="viprosoft logo" className="h-12 w-auto" />
+            <Link to="/">
+  <img src={logo} alt="viprosoft logo" className="h-14 w-auto cursor-pointer" />
+</Link>
           </div>
           <nav className="hidden md:block">
             <ul className="flex gap-6 text-gray-700">

@@ -1,6 +1,7 @@
 import React from 'react';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
+
 const Footer = () => {
   return (
     <footer className="bg-blue-500 text-white py-12">
@@ -37,7 +38,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="hover:text-blue-200">Home</a></li>
+              <li><a href="/" className="hover:text-blue-200">Home</a></li>
               <li className="hover:text-green-800 cursor-pointer"><a href="Innovates">Innovates</a></li>
               <li className="hover:text-green-800 cursor-pointer"><a href="Careers">Careers</a></li>
               <li className="hover:text-green-800 cursor-pointer">
