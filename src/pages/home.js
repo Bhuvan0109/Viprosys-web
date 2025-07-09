@@ -115,7 +115,7 @@ const Home = () => {
               {/* <School className="h-12 w-12 text-goldenrod" /> */}
               <div>
   
-    <img src={logo} alt="viprosoft logo"  className="h-14 w-auto" />
+    <img src={logo} alt="viprosoft logo"  className="h-16 w-auto" />
     
     
   
@@ -414,7 +414,7 @@ Our dynamic work environment, customer-centric focus, and commitment to continuo
             rel="noopener noreferrer"
             className="hover:underline text-black-600"
           >
-            2nd Floor-204,Pavani Anasurya Towers,
+            3rd Floor-304,Pavani Anasurya Towers,
 Tarnaka,Secundrabad
           </a>
         </p>
