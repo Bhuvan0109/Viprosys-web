@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center gap-4">
             <Link to="/">
-  <img src={logo} alt="viprosoft logo" className="h-14 w-auto cursor-pointer" />
+  <img src={logo} alt="viprosoft logo" className="h-16 w-auto cursor-pointer" />
 </Link>
           </div>
           <nav className="hidden md:block">

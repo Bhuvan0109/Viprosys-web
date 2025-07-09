@@ -16,7 +16,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:underline text-black-600"
               >
-                2nd Floor-204, Pavani Anasurya Towers, Tarnaka, Secundrabad
+                3rd Floor-304, Pavani Anasurya Towers, Tarnaka, Secundrabad
               </a>
             </p>
 
