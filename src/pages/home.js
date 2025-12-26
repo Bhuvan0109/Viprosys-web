@@ -78,7 +78,7 @@ const Home = () => {
       setMessages([...messages, { text: currentMessage, isBot: false }]);
       setTimeout(() => {
         setMessages(prev => [...prev, {
-          text: "https://wa.me/917842209055",
+          text: "https://wa.me/917416132030",
           isBot: true
         }]);
       }, 1000);
@@ -414,18 +414,17 @@ Our dynamic work environment, customer-centric focus, and commitment to continuo
             rel="noopener noreferrer"
             className="hover:underline text-black-600"
           >
-            3rd Floor-304,Pavani Anasurya Towers,
-Tarnaka,Secundrabad
+            3rd Floor-304,Pavani Anasurya Towers,Tarnaka,Secundrabad
           </a>
         </p>
 
         <p className="flex items-center gap-2 mb-2">
           <Phone className="h-4 w-4" />
           <a
-            href="tel:+917842209055"
+            href="tel:+917416132030"
             className="hover:underline text-gblack-600"
           >
-            +91 7842209055
+            +91 7416132030
           </a>
         </p>
 
@@ -450,7 +449,7 @@ Tarnaka,Secundrabad
                 <li className="hover:text-green-800 cursor-pointer">
                   
                 <a
-            href="tel:+917995799513"
+            href="tel:+917416132030"
             className="hover:underline text-black-600" >
             Contact
           </a>
